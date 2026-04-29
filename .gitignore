@@ -1,0 +1,10 @@
+bin/
+obj/
+dist/
+externals/
+.vs/
+*.user
+*.suo
+*.pdb
+*.zip
+
