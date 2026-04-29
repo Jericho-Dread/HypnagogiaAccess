@@ -1,27 +1,29 @@
-# Hypnagogia Access v1
+# Hypnagogia Access v1.0.0
 
-Screen reader support mod for *Hypnagogia: Boundless Dreams*.
+First public release of the screen reader accessibility mod for *Hypnagogia: Boundless Dreams*.
 
-For players who rely on screen readers, *Hypnagogia: Boundless Dreams* can be difficult to read with OCR alone because text is not always captured consistently. This mod adds direct screen reader support to make the game more accessible and easier to use.
+## Overview
 
-## Important
+This release adds direct NVDA screen reader support to parts of the game that can be difficult to access with OCR alone.
+
+## Included Support
+
+- menus
+- dialogue
+- cutscene text
+- dialogue choice navigation
+- many interaction prompts
+
+## Accessibility Scope
 
 This mod does **not** make the game fully blind playable.
 
-*Hypnagogia: Boundless Dreams* is a colorful first-person platformer with exploration and platforming. Visual awareness is still needed for navigation, movement, and environmental interaction. Some areas are dark and a few have limited contrast. This mod is currently aimed primarily at **low vision players** and players who benefit from direct screen reader support.
-
-## Features
-
-- Screen reader support for menus
-- Screen reader support for dialogue
-- Screen reader support for cutscene text
-- Support for navigating and selecting dialogue choices
-- Interaction prompts for many usable objects
+*Hypnagogia: Boundless Dreams* is a colorful first-person platformer with exploration and platforming. Visual awareness is still required for navigation, movement, and environmental interaction. This release is primarily intended to improve access for **low vision players** and screen reader users who benefit from direct text output.
 
 ## Known Issue
 
 - Mouse interaction can sometimes break screen reader output during dialogue choices.
-  Workaround: switch to a controller, or visually click the choice you want.
+  Workaround: switch to a controller, or visually click the intended choice.
 
 ## Not Yet Supported
 
@@ -33,10 +35,10 @@ This mod does **not** make the game fully blind playable.
 
 1. Install **BepInEx 5.4.23.5** for *Hypnagogia: Boundless Dreams*.
 2. Download `HypnagogiaAccessMod.zip`.
-3. Extract the zip into your *Hypnagogia: Boundless Dreams* game folder.
+3. Extract the zip into the game folder.
 4. Launch NVDA before starting the game.
 5. Start the game.
 
 ## Feedback
 
-Feedback is very welcome, especially ideas for reducing reliance on visuals and reports on what still needs support.
+Bug reports, compatibility notes, and accessibility feedback are welcome.
