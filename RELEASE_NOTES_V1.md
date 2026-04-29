@@ -33,11 +33,15 @@ This mod does **not** make the game fully blind playable.
 
 ## Installation
 
-1. Install **BepInEx 5.4.23.5** for *Hypnagogia: Boundless Dreams*.
-2. Download `HypnagogiaAccessMod.zip`.
-3. Extract the zip into the game folder.
-4. Launch NVDA before starting the game.
-5. Start the game.
+1. Install **BepInEx 5.4.23.5** for *Hypnagogia: Boundless Dreams* first.
+2. Open the folder that contains `Hypnagogia Boundless Dreams.exe`.
+3. Confirm BepInEx is already installed there. A correct install should include a `BepInEx` folder and several other BepInEx files in the same root folder as the `.exe`.
+4. Download `HypnagogiaAccessMod.zip`.
+5. Extract the zip into the game folder.
+6. `HypnagogiaAccess.dll` should end up in `BepInEx/plugins`.
+7. `nvdaControllerClient64.dll` should be in the game root folder beside the `.exe`.
+8. Launch NVDA before starting the game.
+9. Start the game.
 
 ## Feedback
 

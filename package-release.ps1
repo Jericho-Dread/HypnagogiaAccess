@@ -9,6 +9,7 @@ $projectDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $dllPath = Join-Path $projectDir "bin\\$Configuration\\net472\\HypnagogiaAccess.dll"
 $nvdaPath = Join-Path $projectDir "externals\\nvdaControllerClient64.dll"
 $pluginsDir = Join-Path $OutputDir "BepInEx\\plugins"
+$rootNvdaPath = Join-Path $OutputDir "nvdaControllerClient64.dll"
 $zipPath = Join-Path $projectDir "dist\\HypnagogiaAccessMod.zip"
 
 if (!(Test-Path $dllPath)) {
@@ -26,7 +27,7 @@ if (Test-Path $OutputDir) {
 New-Item -ItemType Directory -Path $pluginsDir | Out-Null
 
 Copy-Item -LiteralPath $dllPath -Destination (Join-Path $pluginsDir "HypnagogiaAccess.dll") -Force
-Copy-Item -LiteralPath $nvdaPath -Destination (Join-Path $pluginsDir "nvdaControllerClient64.dll") -Force
+Copy-Item -LiteralPath $nvdaPath -Destination $rootNvdaPath -Force
 
 if (Test-Path $zipPath) {
     Remove-Item -LiteralPath $zipPath -Force
